@@ -26,29 +26,29 @@
 }
 
 .logo {
-    height: 120px;
-    width: 120px;
+    height: 10vh;
+    width: 10vh;
     border-radius: 50%;
-    margin-bottom: 35px;
+    margin-bottom: 2vh;
 } 
 
 .title {
     color: var(--secondary-font);
-    font-size: 150px;
+    font-size: 10vw;
     font-weight: 500;
-    margin-bottom: 4px;
+    margin-bottom: 0.5vh;
 }
 
 .subtitle {
     color: var(--primary-font);
-    font-size: 36px;
+    font-size: 3vw;
     font-weight: 200;
-    margin-bottom: 15px;
+    margin-bottom: 2vh;
 }
 
 .hero i {   
     color: var(--secondary-font);
-    font-size: 180px;
+    font-size: 8vw;
 } 
 
 /* Styling the intro section */
@@ -60,38 +60,38 @@
     height: 75vh;
     justify-content: center;
     align-items: flex-start;
-    padding-top: 100px;
+    padding-top: 7vh;
 }
 
 .section-heading-intro {
     color: var(--secondary-font);
-    font-size: 120px;
+    font-size: 5.5vw;
     font-weight: 500;
-    margin: 0 80px;
+    margin: 0 5vw;
     flex: 1;
 }
 
 .intro-section {
-    margin: 0 80px;
+    margin: 0 5vw;
     flex: 1;
 }
 
 .intro-desc {
     color: var(--primary-font);
-    margin-bottom: 20px;
-    font-size: 26px;
-    font-weight: 400;
+    margin-bottom: 2vh;
+    font-size: 1.4vw;
+    font-weight: 300;
 }
 
 .cta-btn-1 {
     color: var(--backup-color);
     background: var(--secondary-font);
-    font-size: 26px;
+    font-size: 1.5vw;
     font-weight: 600;
-    padding: 10px;
+    padding: 1vh;
     border: none;
-    width: 230px;
-    height: 60px;
+    width: 12vw;
+    height: 7vh;
     transition: color 0.3s ease;
 }
 
@@ -114,58 +114,60 @@
 
 .section-heading-act {
     color: var(--secondary-font);
-    font-size: 60px;
+    font-size: 3.5vw;
     font-weight: 500;
-    margin: 0 350px;
+    margin: 0 10vw;
     text-align: center;
 }
 
 .wrappper {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 3vh;
+    width: 90%;
 }
 
 .container {
     display: block;
     position: relative;
-    height: 520px;
-    width: 450px;
-    margin-right: 25px;
+    height: auto;
+    width: 25vw;
+    max-width: 25vw;
+    margin-right: 1vw;
 }
 
 .container img {
-    width: 100%;
-    height: 100%;
+    width: 52vh;
+    height: 65vh;
 }
 
 .container-title {
     color: var(--primary-font);
-    font-size: 30px;
+    font-size: 2vw;
     font-weight: 500;
     position: absolute;
-    top: 75%;
+    top: 70%;
     left: 5%;
 }
 
 .container i {
     color: var(--secondary-font);
-    font-size: 110px;
+    font-size: 5vw;
     position: absolute;
-    top: 80%;
+    top: 75%;
     left: -1%;
 }
 
 .cta-btn-2 {
     color: var(--primary-font);
     background: var(--secondary-font);
-    font-size: 26px;
+    font-size: 1.5vw;
     font-weight: 600;
-    padding: 10px;
+    padding: 1vh;
     border: none;
-    width: 230px;
-    height: 60px;
-    margin-top: 40px;
+    width: 12vw;
+    height: 7vh;
+    margin-top: 3vh;
     transition: color 0.3s ease;
 }
 
@@ -183,35 +185,36 @@
     height: 100vh;
     justify-content: center;
     align-items: flex-start;
-    padding-top: 100px;
+    padding-top: 10vh;
 }
 
 .section-heading-rec {
     color: var(--secondary-font);
-    font-size: 85px;
+    font-size: 4.5vw;
     font-weight: 500;
-    margin: 0 80px;
+    margin: 0 5vw;
     flex: 1;
 }
 
 .content {
     display: flex;
     flex-direction: column;
-    margin: 0 80px;
+    margin: 0 5vw;
     flex: 1;
 }
 
 .content p {
     color: var(--primary-font);
-    margin-bottom: 25px;
-    font-size: 26px;
-    font-weight: 400;
+    margin-bottom: 2vh;
+    font-size: 1.3vw;
+    font-weight: 300;
 }
 
 .content h3 {
     color: var(--primary-font);
-    margin-bottom: 25px;
-    font-size: 32px;
+    margin-bottom: 2vh;
+    font-size: 1.5vw;
+    font-weight: 600;
 }
 
 /* Styling the stats section */
@@ -227,8 +230,8 @@
 
 .wrapper-stats {
     background: var(--backup-color);
-    height: 250px;
-    width: 250px;
+    height: 25vh;
+    width: 25vh;
     border-radius: 50%;
     position: relative;
     display: flex;  
@@ -240,7 +243,7 @@
     color: var(--secondary-font);
     position: absolute;
     top: 20%;
-    font-size: 72px;
+    font-size: 4vw;
     font-weight: 500;
 }
 
@@ -249,7 +252,7 @@
     position: absolute;
     top: 60%;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1vw;
 }
 
 /* Styling the author info section */
@@ -265,27 +268,28 @@
 }
 
 .author-info img {
-    height: 220px;
-    width: 220px;
+    height: 15vh;
+    width: 15vh;
     border-radius: 50%;
 }
 
 .author-info p {
     color: var(--primary-font);
     font-weight: 400;
-    font-size: 20px;
-    margin: 35px 650px;
+    font-size: 1.1vw;
+    margin: 2vh 30vw;
+    text-align: center;
 }
 
 .author-info h3 {
     color: var(--primary-font);
     font-weight: 400;
-    font-size: 22px;
+    font-size: 1.3vw;
 }
 
 .author-info i {
     color: var(--secondary-font);
-    font-size: 140px;
+    font-size: 6vw;
 }
 
 /* Styling the gallery section */
@@ -308,35 +312,35 @@
     height: 75vh;
     justify-content: center;
     align-items: flex-start;
-    padding-top: 125px;
+    padding-top: 8vh;
 }
 
 .left {
     flex: 1;
-    margin-left: 100px;
+    margin-left: 5vw;
 }
 
 .left h2 {
     color: var(--secondary-font);
-    margin-bottom: 25px;
-    font-size: 86px;
+    margin-bottom: 2vh;
+    font-size: 5vw;
     font-weight: 500;
 }
 
 .left ul {
     color: var(--primary-font);
-    font-size: 19px;
+    font-size: 1.2vw;
     list-style-type: none;
-    margin-bottom: 30px;
+    margin-bottom: 2vh;
 }
 
 .left ul li {
-    margin-bottom: 5px;
+    margin-bottom: 1vh;
 }
 
 .icon-wrap {
     display: flex;
-    max-width: 260px;
+    max-width: 20vw;
     justify-content: space-between;
 }
 
@@ -350,12 +354,12 @@
 }
 
 .icon-wrap i {
-    font-size: 40px;
+    font-size: 2vw;
 }
 
 .right {
     flex: 1;
-    margin-right: 100px;
+    margin-right: 5vw;
 }
 
 .right form {
@@ -365,16 +369,14 @@
 }
 
 .right form input {
-    margin-bottom: 20px;
-    border: var(--primary-font);
+    margin-bottom: 2vh;
     color: var(--primary-font);
-    height: 60px;
-    font-size: 20px;
-    padding: 12px;
+    height: 7vh;
+    font-size: 1.4vw;
+    padding: 1vh;
     background: none;
-    border: 3px solid;
-    border-color: var(--primary-font);
-    border-radius: 5px;
+    border: 3px solid var(--primary-font);
+    border-radius: 0.3vw;
 }
 
 .right form input::placeholder {
@@ -386,17 +388,14 @@
 }
 
 .right form textarea {
-    margin-bottom: 20px;
-    border: var(--primary-font);
-    height: 150px;
+    margin-bottom: 2vh;
+    height: 20vh;
     color: var(--primary-font);
-    font-size: 20px;
-    padding: 12px;
+    font-size: 1.4vw;
+    padding: 1vh;
     background: none;
-    border: 3px solid;
-    border-color: var(--primary-font);
-    border-radius: 5px;
-    resize: none;
+    border: 3px solid var(--primary-font);
+    border-radius: 0.5vw;
 }
 
 .right form textarea::placeholder {
@@ -407,19 +406,19 @@
     outline: none;
 }
 
-.submit-btn {
+.right form button {
+    height: 7vh;
+    width: 10vw;
     color: var(--backup-color);
     background: var(--secondary-font);
-    font-size: 24px;
     font-weight: 600;
-    padding: 10px;
+    font-size: 1.4vw;
+    padding: 1vh;
     border: none;
-    width: 180px;
-    height: 50px;
+    cursor: pointer;
     transition: color 0.3s ease;
 }
 
-.submit-btn:hover {
+.right form button:hover {
     color: var(--primary-font);
-    cursor: pointer;
 }
